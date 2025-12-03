@@ -5,23 +5,15 @@ Real-time monitoring and analysis of electricity source intensity for the Los An
 ### Real-time Dashboard
 
 ![Dashboard Overview](demo/demo_01.jpg)
-_Main dashboard showing real-time power generation, grid state, solar input, and prediction cluster_
-
 ### Power Generation & Solar Forecast
 
 ![Power Generation Sources](demo/demo_02.jpg)
-_Live power generation by source (Solar, Wind, Gas, Hydro) with 24-hour solar forecast_
-
 ### Analysis & Correlations
 
-![Analysis Dashboard](demo/demo_03.jpg)
-_Load trend analysis, daily seasonality profile, source correlation matrix, and load distribution_
-
+![Analysis Dashboard](demo/demo_03.jpeg)
 ### Detailed Analytics
 
-![Detailed Analytics](demo/demo_04.jpg)
-_In-depth view of trend analysis, seasonal patterns, and clustering visualization_
-
+![Detailed Analytics](demo/demo_04.jpeg)
 ## 📋 Overview
 
 This project provides a comprehensive solution for monitoring, analyzing, and predicting electricity grid data for Los Angeles. It includes:
