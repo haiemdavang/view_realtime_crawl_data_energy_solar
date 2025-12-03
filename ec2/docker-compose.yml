@@ -1,0 +1,31 @@
+services:
+  api-service:
+    build: ./api
+    container_name: api_server
+    restart: always
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=5432
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASS=${DB_PASS}
+      - CLUSTERING_SERVICE_URL=${CLUSTERING_SERVICE_URL}
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - VITE_API_URL=${VITE_API_URL}
+    depends_on:
+      - api-service
+
+volumes:
+  postgres_data:
+  pgadmin_data:

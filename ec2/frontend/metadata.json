@@ -1,0 +1,5 @@
+{
+  "name": "GridVision Los Angeles",
+  "description": "Real-time electricity grid analysis, forecasting, and clustering dashboard for Los Angeles.",
+  "requestFramePermissions": []
+}
