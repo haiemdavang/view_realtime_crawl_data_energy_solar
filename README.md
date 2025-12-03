@@ -4,22 +4,22 @@ Real-time monitoring and analysis of electricity source intensity for the Los An
 
 ### Real-time Dashboard
 
-![Dashboard Overview](docs/images/dashboard-overview.png)
+![Dashboard Overview](demo/demo_01.jpg)
 _Main dashboard showing real-time power generation, grid state, solar input, and prediction cluster_
 
 ### Power Generation & Solar Forecast
 
-![Power Generation Sources](docs/images/power-generation.png)
+![Power Generation Sources](demo/demo_02.jpg)
 _Live power generation by source (Solar, Wind, Gas, Hydro) with 24-hour solar forecast_
 
 ### Analysis & Correlations
 
-![Analysis Dashboard](docs/images/analysis-view.png)
+![Analysis Dashboard](demo/demo_03.jpg)
 _Load trend analysis, daily seasonality profile, source correlation matrix, and load distribution_
 
 ### Detailed Analytics
 
-![Detailed Analytics](docs/images/detailed-analytics.png)
+![Detailed Analytics](demo/demo_04.jpg)
 _In-depth view of trend analysis, seasonal patterns, and clustering visualization_
 
 ## 📋 Overview
